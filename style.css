@@ -1,0 +1,142 @@
+header {
+    position: relative;
+}
+
+.top-left-logo {
+    position: absolute;
+    top: 60;
+    left: 10;
+    width: 71.5px;
+    height: auto;
+    border:solid;
+}
+body{
+    background-color:black;
+}
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border:solid;
+}
+
+
+ul.navbar li {
+    display: inline-block;
+    margin: 0 200px;
+}
+
+
+ul.navbar li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 5px; 
+    background-color: #444;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+.navbar a:hover {
+    background-color: #575757;
+    border-color: #ddd;
+}
+h1 {
+    font-size:50px;
+    color:#fff4de;
+    background-color: #333;
+}
+h3{
+    font-size:35px;
+    color:#fff4de;
+    background-color: #333;
+}
+#names{
+    font-size:40px;
+    color:#fff4de;
+}
+#names:hover{
+    color:red;
+}
+hr{
+    border:none;
+    border-top:3px solid black;
+    margin:20px 0;
+    background-color: #333;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color:white;
+    align-items: center;
+    background-color: #333;
+    
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  .grade-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .grade-A { background-color: #4CAF50; }
+  .grade-B { background-color: #8BC34A; }
+  .grade-C { background-color: #FFC107; }
+  .grade-D { background-color: #FF9800; }
+  .grade-F { background-color: #F44336; }
+  
+h3.cost {
+    font-size:40px;
+    color:orange;
+    text-align:center;
+}
+.wolf{
+    font-size:30px;
+    text-align:center;
+    color:#fff4de;
+}
+
+.png {
+    width: 650px;
+}
+    
+.mash {
+    font-size:30px;
+    text-align:right;
+    color:#fff4de;
+}   
+.table2{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 100px auto;
+    font-size:30px;
+    color:#fff4de;
+  }
+  tr, th {
+    padding: 10px;
+    text-align: center;
+    border: none;
+  }
+  
+}
